@@ -17,10 +17,10 @@ func main() {
 	fmt.Printf("Group: %d, Variant: %d, Course: %f\n", int(sum), int(product), result)
 
 	me := Person{
-		Name:    "Петро",
-		Surname: "Бондарев",
+		Name:    "Назар",
+		Surname: "Передерій",
 		Group:   62,
-		Variant: 3,
+		Variant: 2,
 	}
 	fmt.Printf("%s, %s, %d, %d\n", me.Name, me.Surname, me.Group, me.Variant)
 	CalculateSum(&me)
